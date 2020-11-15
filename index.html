@@ -1,0 +1,32 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        .svg-circle{
+            fill: none;
+            stroke: grey;
+            stroke-dasharray: 630;
+            stroke-dashoffset: 630;
+            animation: animate 5s ease infinite alternate;
+            }
+            
+            @keyframes animate{
+            0%{
+                stroke-dashoffset: 630;
+            }
+            100%{
+                stroke-dashoffset: 0;
+            }
+            
+            }
+    </style>
+</head>
+<body>
+    <svg width="250" height="250">
+  <circle r="100" cx="125" cy="125" class="svg-circle">
+</body>
+</html>
